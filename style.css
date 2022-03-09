@@ -1,0 +1,83 @@
+/* -------------------------
+    Common Style Start 
+---------------------------*/
+.btn-style {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 25px;
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* -------------------------
+    Common Style End 
+---------------------------*/
+
+/* -------------------------
+    Main Section Style Start 
+---------------------------*/
+main .carousel-style{
+    background-color: #fceae8;
+    border-radius: 10px;
+}
+.price {
+  color: rgb(219, 90, 150);
+}
+
+/* -------------------------
+    Main Section Style End 
+---------------------------*/
+
+/* ---------------------------------
+    Category Section Style Start 
+-----------------------------------*/
+#category img {
+  width: 100px;
+}
+.cad-1 {
+  background-color: orange;
+}
+
+.cad-2 {
+  background-color: #db7093;
+}
+
+.cad-3 {
+  background-color: #87cefa;
+}
+
+.cad-1,
+.cad-2,
+.cad-3 {
+  border-radius: 20px;
+}
+/* ---------------------------------
+    Category Section Style End 
+-----------------------------------*/
+
+/* ---------------------------------
+    Contact-us Section Style Start
+-----------------------------------*/
+#contact-us {
+  height: 300px;
+  background-color: #fceae8;
+  border-radius: 20px;
+}
+/* ---------------------------------
+    Contact-us Section Style End 
+-----------------------------------*/
+
+/* ---------------------------------
+    Media Query Section Style Start 
+    Scanner Size max-width: 576px
+-----------------------------------*/
+@media only screen and (max-width: 576px) {
+  main .reverse-item {
+    flex-direction: column-reverse;
+  }
+}
+
+/* ---------------------------------
+    Media Query Section Style End
+-----------------------------------*/
